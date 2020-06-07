@@ -10,6 +10,7 @@
 
 
 <!-- https://code.i-harness.com/en/q/cfc5aa -->
+<!-- another way to do it -->
 
 
 
@@ -20,9 +21,9 @@
   <% @tasks.each do |task| %>
     <li>
       <% if task.completed %>
-        <i class="fa fa-check-square-o"></i>
+        <i class="fas fa-check-square"></i>
       <% else %>
-        <i class="fa fa-square-o"></i>
+        <i class="fas fa-square"></i>
       <% end %>
       <%= link_to task.title, task_path(task.id) %>
       ·
