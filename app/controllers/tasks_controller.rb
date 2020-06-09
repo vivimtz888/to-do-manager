@@ -15,6 +15,7 @@ class TasksController < ApplicationController
     def create
       @task = Task.new(task_params)
       @task.save
+      #@task = Task.create!(params[:restaurant])
       redirect_to task_path(@task)
     end
 
