@@ -52,4 +52,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'simple_form'
 
-gem 'actionpack', '~> 6.0', '>= 6.0.3.2'
+gem 'actionpack', '~> 6.0'
